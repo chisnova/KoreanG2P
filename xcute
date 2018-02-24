@@ -1,0 +1,4 @@
+rm -rf main
+g++ KS2KSSM.cc function.cc g2p.cc -o main -liconv -fshort-wchar
+time ./main
+rm -rf main
